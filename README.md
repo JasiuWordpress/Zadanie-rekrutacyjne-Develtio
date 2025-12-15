@@ -1,5 +1,10 @@
 # Event Manager
 
+## WordPress Playground (import)
+
+Gotowe środowisko testowe jest do pobrania w **Releases** 
+
+
 Do aktywacji wtyczki potrzebna jest wtyczka acf. Na register hooku dalem sprawdzenie czy jesli nie to deaktywuje wtyczke.
 
 ## Permissions / dostęp do rejestracji
