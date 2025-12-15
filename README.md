@@ -1,4 +1,4 @@
-# Zadanie-rekrutacyjne-Develtio
+# Event Manager
 
 Do aktywacji wtyczki potrzebna jest wtyczka acf. Na register hooku dalem sprawdzenie czy jesli nie to deaktywuje wtyczke.
 
