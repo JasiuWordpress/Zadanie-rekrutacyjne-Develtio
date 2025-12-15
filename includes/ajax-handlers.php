@@ -59,9 +59,10 @@ function handle_register_event() {
 
     $limit = get_field('limit_event', $post_id);
 
-    if($limit - count($registrations) <= 1){
-         wp_send_json_error('Nie ma juz miejsc');
-    }
+   if ( count($registrations) >= $limit ) {
+    wp_send_json_error('Nie ma już miejsc');
+    }    
+
 
     $registrations[] = [
         'name'    => $name,
